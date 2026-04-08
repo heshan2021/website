@@ -1,0 +1,18 @@
+{
+  "name": "figma-to-code",
+  "version": "1.0.0",
+  "description": "Export Figma designs to code",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {},
+  "keywords": ["figma", "code-generation", "design-to-code"],
+  "author": "",
+  "license": "MIT"
+}
